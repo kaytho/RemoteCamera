@@ -98,5 +98,13 @@ public class Main extends AppCompatActivity {
             icon = R.drawable.on;
         }
         button.setBackgroundResource(icon);
+        changeServerStatus(serverState);
+    }
+    void changeServerStatus(boolean state) {
+        if (state) {
+            
+        } else {
+
+        }
     }
 }
